@@ -1,7 +1,7 @@
 ### Requirement
 
 - `Node v23.1.0`
-- AWS
+- AWS Credentials
 
 ### URL
 

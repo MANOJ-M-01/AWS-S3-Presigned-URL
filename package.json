@@ -1,7 +1,7 @@
 {
   "name": "s3-signed-url-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index-express.js",
   "scripts": {
     "start:express": "node index-express",
     "start:restify": "node index-restify"
