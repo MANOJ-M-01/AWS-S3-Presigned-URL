@@ -1,5 +1,5 @@
 {
-  "name": "s3-signed-url-backend",
+  "name": "aws-s3-presigned-url",
   "version": "1.0.0",
   "main": "index-express.js",
   "scripts": {
