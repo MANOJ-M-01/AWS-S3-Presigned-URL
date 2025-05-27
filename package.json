@@ -1,6 +1,6 @@
 {
   "name": "aws-s3-presigned-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index-express.js",
   "scripts": {
     "start:express": "node index-express",
