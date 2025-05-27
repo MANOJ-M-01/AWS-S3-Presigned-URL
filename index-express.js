@@ -49,8 +49,9 @@ app.get("/", (req, res) => {
 });
 
 // Route for serving private bucket assets
-app.get("/s3/*", async (req, res) => {
-  const filePath = req.params[0];
+// /s3/*
+app.get("/s3/*path", async (req, res) => {
+  const filePath = req.params.path.join("/");
   console.log("filePath : ", filePath);
 
   const getObjectParams = {
